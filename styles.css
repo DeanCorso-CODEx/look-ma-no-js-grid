@@ -115,10 +115,8 @@ h1 {
     aspect-ratio: 1 / 1;
     border: 3px solid rgba(255, 255, 255, 0.1);
     border-radius: 15px;
-    background-color: #000000;
     background-image: url("gift-cover.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.4s, border-color 0.4s;
